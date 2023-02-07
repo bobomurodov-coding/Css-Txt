@@ -1,0 +1,20 @@
+Css Flex Box {
+flex container: 
+align-content
+align-items
+flex-direction
+flex-flow
+flex-wrap
+justify-content;
+
+Flex-item:
+align-self
+flex-basis
+flex-grow
+flex-shrink
+flex
+order
+}
+
+
+
