@@ -1,0 +1,112 @@
+color: white; bu qiymat web sitemizdagi textlarga rang berish uchun ishlatiladi.
+background-color: ; bu web sitemizni orqa foniga rang berish uchun va divlarga orqa foniga rang berish uchun ishlatiladi.
+background-image: ; bu web sitemizni orqa foniga rasm quyish uchun va divlarni orqa foniga rasm quyish uchun ishlatiladi.
+background-repeat: ; Bu qiymat web sitemizni orqa foniga rasm quysak rasmni razmeri tugri kelmasa rasm 2-3 ta ga takrorlanib ketadi shuni oldini olish uchun ushbu qiymat ishlatiladi. 
+background-attachment: ; bu qiymat orqa fonimizdagi rasmni fixed yani qotirib quyish uchun ishlatiladi masalan biz saytni scroll qilganimizda rasm ekranda turaveradi va va joyi uzgarmaydi
+background-position: ; bu qiymat orqa fondagi rasmni joyidan siljitish uchun kerak buladi buning 2ta qiymati bolib ular X va Y rasmlarni X va Y uqi buyicha pikse
+background: ; bu qiymat web sitemizdagi orqa fonlar bilan ishlaydigan codlarni hammasini qila oladigan qiymat
+border: ; ++ dotted - nuqtali border, dashed - uzuk chiziqli border, solid - tugri chiqizli border,double- 2 chiziqli border
+border-width: ; border width bu borderni qalinligini uzgartirish xususiyatiga ega bulgan kod
+border-style: ; bu borderni turini belgilaydi.
+border-color: ; bu borderni rangini uzgartiradi.
+border-left,right, top, bottom: ; bu borderni tomonlarini belgilaydi.
+border-radius: ; bo borderni burchagini aylana shakliga keltiradi masalan To'rt burchak divlarni burchagini aylana shakliga utkazadi
+margin: ; margin bu websitemizdagi elementlarni joyini uzgartiradi
+padding: ; padding bu elementni chegarasidan elementgacha bulgan masofani belgilaydi
+margin-left, top, right, bottom: ;++
+padding-left, top, right, bottom: ;++
+width: ;++ 
+height: ;++
+max-width,height: ;++
+min-width,height: ;++
+outline: ; outline bu borderdan keyin yana border quyishga kerak
+outline-width,color,style: ;++
+text-align: ; bu textni horizontal joylashuvini  belgilaydi
+text-align-last: ; ++ bu textni oxirgi qatorini joylashuvini belgilaydi
+direction: ; ++ bu code textni joyini uzgartirishga yordam beradi uning 2 ta qiymati bor ulat rtl- ung tarafga joylashtiradi, ltr-chap tarafga
+unicode-bidi: ;---
+vertical-align: ;++ bu textni vertical holatda joyini uzgartiradi
+text-decoration: ;++
+text-decoration-thickness: ;++ bu chiziqni qalinligini uzgartirib beradi
+text-decoration-line: ; ++ bu code text-decoration da chizilgan chiziqlarni tepaga pastga va urtaga quyishga yordam beradi
+text-transform: ; ++ bu textni bosh harfda boshlanishi hamma suzi katta harfda bulishi yoki kichkina harfda qilishga yordam beradi.
+text-indent: ; bu biror bir matnini obzasini belgilaydi.
+letter-spacing: ; ++ bu harflarni orasini ochishga va yopishga kk.
+line-height: ;++ bu matndagi qatorlarni orasini ochish va qisqartiradi.
+word-spacing: ; bu matngagi suzlarni orasini ochishga ishlatiladi.
+white-space: ; bu matnni sindirish yoki 1 qatorda joylashtirish uchun kerak.
+text-shadow: ; bu matnga soya quyishga kerak.
+font-family: ; bu matnlarni shriftini uzgartiradi.
+font-style: ; bu matnni shriftini yon tomonga og'dirishga kerak.
+font-weight: ; bu matndagi harflarni qalinlashtirish uchun ishlatiladi.
+font-variant: ; ++ bu boshlangich katta harfdan qolganlari kichikroq kattaroq bulishiga kk.
+font-size: ; bu matndagi harflarni kattaligini belgilaydi.
+font: ; font bu shrift bilan bog'liq hamma narsani bitta codda qiladi
+list-style: ; list style bu tartiblanmagan ruyxatdagi 
+list-style-position: ; ++
+list-style-image: ; bu uldagi nuqtachalarni urniga rasm quyib beradi
+display: ; display bu biror bir elementni none(yuq) qilib quyishga va elementda flex va grid da ishlash uchun yordam beradi.
+position: ; position bu elementlarni joyini belgilaydi.
+position: ,relative- bu biror bir elementni joyini uzgartirmoqchi bolsak element o'z o'rnini saqlab qolgan holda biror tarafga suriladi
+absolute - bu qiymatda biror bir elementni surmoqchi bolsak u o'z o'rnini yuqotib unga top dan 10 px bersak u o'z joyidan emas websiteni boshlanishida 10px suriladi
+fixed: bu biror bir elemenga fixed qiymatini bersak u element turgan joyida qotib qoladi va websiteni scroll qilsak ham u joyida turaveradi.
+sticky- bu fixed ga uxshagan bulib u berilgan qiymatni holatiga kelgandan fixed buladi.
+z-index: ; biror bir elementni ustiga boshqa element chiqib qolsa elementni tepaga chiqarish uchun kerak
+overflow: ; overflow bu biror bir elementni ichidagi element uning chegarasidan chiqib ketsa uni yashirib quyish scroll qilib quyish mumkin bulgan elemant
+float: ; --
+Pseudo class:
+:link --
+:visited --
+:hover hover bu biror bir elementni ustiga cursor borganda biror bir xodisa bulishi ga kerak 
+:active active bu biror bir element bosib turilganda biror xodisa bajarilishi 
+:first-child bu elementni ichidagi elementlardan 1-sini tanlab olish va unga qiymat berish mumkin
+:checked checked bu input checkboxga bosilganda biror xodisa bajariladi
+:disabled --
+:empty --
+:enabled --
+:first-of-type --
+:focus ++
+:in-range --
+:invalid --
+:last-child bu biror bir elementni ichidagi oxirgi elementini tanlab oladi va uni css codelar yoziladi
+:last-of-type --
+:not --
+:nth-child bu elementni ichidagi elementlardan xoxlaginimizni olishimiz mumkin
+:only-of-type --
+:only-child --
+:required ==
+:root ++
+:target --
+:valid --
+:visited --
+opacity: ; opacity bu uchirish yoki uni xora qilib quyish
+Css Attributes ---
+Css Counter ---
+Css Important ---
+Function ---
+border-images bu borderga image quyish uchun.
+css gradient ---
+text overflow ---
+word-wrap ---
+word-break --
+writing-mode ---
+css transforms ++
+transitions ++
+animations bu css da animatsiyalar bilan ishlashga yordam beradi
+tooltips --
+-webkit- ---
+objict-fit --
+mask-image ---
+columns ---
+resize ---
+var() ---
+box-sizing ++
+Media Queries bu websitemizni xarxil qurilmalarga razmerini tugirlash 
+Css Flex box -  bu websahifamizdagi elementlarni har hil turda joylashtirishish uchun yordam beradi.
+justify-content - : bu websahifamizdagi elementlarni urtaga ikki yonga tepa pastga joylashtirishimiz mumkin buni space-beetwen, space-evenly, space-around, center qiymatlari bor.
+align-items - bu websahifamizdagi elementlarni vertical joylashtiradi buni center, flex-start, flex-end qiymatlari bor.
+flex-direction- bu flex metodini vertical yoki horizontal qullash uchun ishlatamiz va buni column, column-reverse, row, row-reverse qiymatlari bor.
+flex-wrap - bu codni ikkita qiymati bulib ular wrap and nowrap qiymatlari nowrap buni default qiymati bulib bu code orqali biz elementlar 1 qatorga sig'may qolsa ikkinchi qatorga utkazishimiz mumkin.\
+
+
+
